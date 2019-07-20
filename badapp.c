@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
-/* code contains a few vulnerability:
+/* code contains a following vulnerabilities:
  * Buffer Overflow
  * Weak authentication (single factor authentication, password echoing, cleartext password) 
  * Vulnerable dependency (use of unsafe functions such as gets which do not perform boundary checking and are therefore vulnerable to buffer overflow) 
+ * CS-GY-9163
+ * SUMMER 2019
  */
 
 int main(void)
