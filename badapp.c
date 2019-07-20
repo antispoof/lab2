@@ -7,6 +7,7 @@
  * Vulnerable dependency (use of unsafe functions such as gets which do not perform boundary checking and are therefore vulnerable to buffer overflow) 
  * CS-GY-9163
  * SUMMER 2019
+ * https://github.com/antispoof/lab2.git
  */
 
 int main(void)
